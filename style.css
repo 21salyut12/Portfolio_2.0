@@ -1,0 +1,161 @@
+:root {
+    --clr1: #EDE7E3;
+    --clr2: #16697A;
+    --clr3: #489FB5;
+    --clr4: #82C0CC;
+    --clr5: #FFA62B;
+    --clr6: #3D1A4B;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+}
+
+.bg-image {
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.image {
+    background-image: url('./blob-scene-haikei.svg');
+}
+
+.navbar {
+    background-color: var(--clr2);
+    overflow: hidden;
+}
+
+.navbar>ul {
+    display: flex;
+    justify-content: space-evenly;
+    padding-left: 0;
+    padding-right: 0;
+    list-style: none;
+}
+
+.navbar>ul>li {
+    padding: 20px 10vw;
+    transition: 400ms;
+}
+
+.navbar-item {
+    text-decoration: none;
+    font-size: 20px;
+    padding-top: 25px;
+    color: var(--clr1);
+}
+
+.navbar>ul>li:hover {
+    background-color: var(--clr5);
+    border-radius: 8px;
+    box-shadow: 0px 0px 40px 5px var(--clr5);
+}
+
+section,
+h1,
+.description {
+    text-align: center;
+}
+
+section {
+    color: var(--clr4);
+}
+
+h1 {
+    font-size: 2.1rem;
+    color: var(--clr1);
+}
+
+.description {
+    font-size: 1rem;
+    color: var(--clr4);
+    height: 350px;
+    width: 340px;
+    margin-top: 1px;
+    padding-top: 5px;
+    line-height: 30px;
+}
+
+.description,
+.hobbies-interests-skills {
+    margin-left: 34.5vw;
+    width: 30rem;
+    background-color: var(--clr6);
+    border-radius: 25px;
+}
+
+
+.margin {
+    margin: 20px;
+}
+
+.grid-ul li {
+    padding: 5px;
+    color: var(--clr5);
+    background-color: var(--clr6);
+    list-style: none;
+}
+
+#photo {
+    border-radius: 25px;
+    height: 350px;
+    width: 350px;
+    margin-left: 10px;
+}
+
+.hobbies>ul,
+.interests>ul,
+.skills>ul, .projectsList {
+    list-style-type: none;
+    text-align: center;
+}
+
+.projectsList img {
+    width: 600px;
+    height: 500px;
+    object-fit: cover;
+}
+
+.contact>ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10rem;
+    padding-bottom: 15rem;
+}
+
+.contact-header {
+    margin-top: 20rem;
+}
+
+.logo {
+    fill: var(--clr4);
+    box-shadow: 5px 15px 40px 5px var(--clr3);
+}
+
+#github {
+    border-radius: 50%;
+    margin-left: 30rem;
+}
+
+#linkedin {
+    border-radius: 50%;
+}
+
+#instagram {
+    border-radius: 25%;
+    margin-right: 30rem;
+}
+
+.contact>li {
+    text-decoration: none;
+}

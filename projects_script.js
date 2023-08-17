@@ -1,4 +1,4 @@
-// Array of image objects with filenames and descriptions
+// Array of image objects with filenames and descriptions testy-test
 const images = [
     { filename: './images/static_qr_code.jpg',
       title: 'QR Code Static Page',

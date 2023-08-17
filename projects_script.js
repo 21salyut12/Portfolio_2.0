@@ -1,4 +1,4 @@
-// Array of image objects with filenames and descriptions
+// Array of image objects with filenames and descriptions testy-test
 const images = [
     { filename: './images/weather_app_react.jpg',
       title: 'Weather App',
